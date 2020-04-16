@@ -7,27 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533FD40124485DE700424F65 /* ImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533FD3FF24485CF300424F65 /* ImageCropper.swift */; };
 		53F6A9F82447369100CB54A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6A9F72447369100CB54A6 /* AppDelegate.swift */; };
-		53F6A9FA2447369100CB54A6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53F6A9F92447369100CB54A6 /* GameScene.sks */; };
-		53F6A9FC2447369100CB54A6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53F6A9FB2447369100CB54A6 /* Actions.sks */; };
-		53F6A9FE2447369100CB54A6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6A9FD2447369100CB54A6 /* GameScene.swift */; };
-		53F6AA002447369100CB54A6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6A9FF2447369100CB54A6 /* GameViewController.swift */; };
-		53F6AA032447369100CB54A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6AA012447369100CB54A6 /* Main.storyboard */; };
+		53F6AA002447369100CB54A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6A9FF2447369100CB54A6 /* MainViewController.swift */; };
 		53F6AA052447369200CB54A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F6AA042447369200CB54A6 /* Assets.xcassets */; };
-		53F6AA082447369200CB54A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6AA062447369200CB54A6 /* LaunchScreen.storyboard */; };
+		53F6AA12244737F200CB54A6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA11244737F200CB54A6 /* App.swift */; };
+		53F6AA18244738F100CB54A6 /* FrameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA16244738AC00CB54A6 /* FrameProvider.swift */; };
+		53F6AA192447398A00CB54A6 /* VideoCircleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA0F244737BC00CB54A6 /* VideoCircleNode.swift */; };
+		53F6AA1B2447BB4800CB54A6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA1A2447BB4800CB54A6 /* AppCoordinator.swift */; };
+		53F6AA1D2447BBDB00CB54A6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA1C2447BBDB00CB54A6 /* Coordinator.swift */; };
+		53F6AA202447BCC300CB54A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA1F2447BCC300CB54A6 /* ViewModel.swift */; };
+		53F6AA222447BD5D00CB54A6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA212447BD5D00CB54A6 /* View.swift */; };
+		53F6AA242447BE1900CB54A6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA232447BE1900CB54A6 /* MainViewModel.swift */; };
+		53F6AA262447C08500CB54A6 /* ColoredCircleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA252447C08500CB54A6 /* ColoredCircleNode.swift */; };
+		53F6AA2C2447C5A800CB54A6 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA2B2447C5A800CB54A6 /* String+Localization.swift */; };
+		53F6AA302447C78800CB54A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F6AA322447C78800CB54A6 /* Localizable.strings */; };
+		53F6AA342447C89600CB54A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F6AA332447C89600CB54A6 /* LaunchScreen.storyboard */; };
+		53F6AA362447C8E000CB54A6 /* CameraPromtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA352447C8E000CB54A6 /* CameraPromtViewController.swift */; };
+		53F6AA382447C96F00CB54A6 /* CameraPromtCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA372447C96F00CB54A6 /* CameraPromtCoordinator.swift */; };
+		53F6AA3A2447C97C00CB54A6 /* CameraPromtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA392447C97C00CB54A6 /* CameraPromtViewModel.swift */; };
+		53F6AA3C2447C98900CB54A6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA3B2447C98900CB54A6 /* MainCoordinator.swift */; };
+		53F6AA3E2447CADD00CB54A6 /* CameraFrameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA142447388A00CB54A6 /* CameraFrameProvider.swift */; };
+		53F6AA412447CE1700CB54A6 /* SKShapeNode+Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6AA3F2447CD4D00CB54A6 /* SKShapeNode+Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533FD3FF24485CF300424F65 /* ImageCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropper.swift; sourceTree = "<group>"; };
 		53F6A9F42447369100CB54A6 /* VideoCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F6A9F72447369100CB54A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53F6A9F92447369100CB54A6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		53F6A9FB2447369100CB54A6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		53F6A9FD2447369100CB54A6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		53F6A9FF2447369100CB54A6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		53F6AA022447369100CB54A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F6A9FF2447369100CB54A6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		53F6AA042447369200CB54A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53F6AA072447369200CB54A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53F6AA092447369200CB54A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F6AA0F244737BC00CB54A6 /* VideoCircleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCircleNode.swift; sourceTree = "<group>"; };
+		53F6AA11244737F200CB54A6 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		53F6AA142447388A00CB54A6 /* CameraFrameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFrameProvider.swift; sourceTree = "<group>"; };
+		53F6AA16244738AC00CB54A6 /* FrameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameProvider.swift; sourceTree = "<group>"; };
+		53F6AA1A2447BB4800CB54A6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		53F6AA1C2447BBDB00CB54A6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		53F6AA1F2447BCC300CB54A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		53F6AA212447BD5D00CB54A6 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		53F6AA232447BE1900CB54A6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		53F6AA252447C08500CB54A6 /* ColoredCircleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredCircleNode.swift; sourceTree = "<group>"; };
+		53F6AA2B2447C5A800CB54A6 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		53F6AA312447C78800CB54A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53F6AA332447C89600CB54A6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F6AA352447C8E000CB54A6 /* CameraPromtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromtViewController.swift; sourceTree = "<group>"; };
+		53F6AA372447C96F00CB54A6 /* CameraPromtCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromtCoordinator.swift; sourceTree = "<group>"; };
+		53F6AA392447C97C00CB54A6 /* CameraPromtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPromtViewModel.swift; sourceTree = "<group>"; };
+		53F6AA3B2447C98900CB54A6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		53F6AA3F2447CD4D00CB54A6 /* SKShapeNode+Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Circle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +88,95 @@
 		53F6A9F62447369100CB54A6 /* VideoCircle */ = {
 			isa = PBXGroup;
 			children = (
+				53F6AA2D2447C5E500CB54A6 /* Resources */,
+				53F6AA11244737F200CB54A6 /* App.swift */,
+				53F6AA1E2447BCB300CB54A6 /* Protocols */,
+				53F6AA272447C4E500CB54A6 /* Screens */,
+				53F6AA2A2447C57E00CB54A6 /* Extensions */,
 				53F6A9F72447369100CB54A6 /* AppDelegate.swift */,
-				53F6A9F92447369100CB54A6 /* GameScene.sks */,
-				53F6A9FB2447369100CB54A6 /* Actions.sks */,
-				53F6A9FD2447369100CB54A6 /* GameScene.swift */,
-				53F6A9FF2447369100CB54A6 /* GameViewController.swift */,
-				53F6AA012447369100CB54A6 /* Main.storyboard */,
+				53F6AA1A2447BB4800CB54A6 /* AppCoordinator.swift */,
+				53F6AA332447C89600CB54A6 /* LaunchScreen.storyboard */,
 				53F6AA042447369200CB54A6 /* Assets.xcassets */,
-				53F6AA062447369200CB54A6 /* LaunchScreen.storyboard */,
 				53F6AA092447369200CB54A6 /* Info.plist */,
 			);
 			path = VideoCircle;
+			sourceTree = "<group>";
+		};
+		53F6AA132447383700CB54A6 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA3F2447CD4D00CB54A6 /* SKShapeNode+Circle.swift */,
+				53F6AA252447C08500CB54A6 /* ColoredCircleNode.swift */,
+				53F6AA0F244737BC00CB54A6 /* VideoCircleNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		53F6AA1E2447BCB300CB54A6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA1C2447BBDB00CB54A6 /* Coordinator.swift */,
+				53F6AA1F2447BCC300CB54A6 /* ViewModel.swift */,
+				53F6AA212447BD5D00CB54A6 /* View.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		53F6AA272447C4E500CB54A6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA292447C54F00CB54A6 /* Camera Promt */,
+				53F6AA282447C54100CB54A6 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53F6AA282447C54100CB54A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				533FD3FF24485CF300424F65 /* ImageCropper.swift */,
+				53F6AA3D2447CA9400CB54A6 /* Frame Providers */,
+				53F6AA132447383700CB54A6 /* Nodes */,
+				53F6A9FF2447369100CB54A6 /* MainViewController.swift */,
+				53F6AA232447BE1900CB54A6 /* MainViewModel.swift */,
+				53F6AA3B2447C98900CB54A6 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		53F6AA292447C54F00CB54A6 /* Camera Promt */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA352447C8E000CB54A6 /* CameraPromtViewController.swift */,
+				53F6AA392447C97C00CB54A6 /* CameraPromtViewModel.swift */,
+				53F6AA372447C96F00CB54A6 /* CameraPromtCoordinator.swift */,
+			);
+			path = "Camera Promt";
+			sourceTree = "<group>";
+		};
+		53F6AA2A2447C57E00CB54A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA2B2447C5A800CB54A6 /* String+Localization.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53F6AA2D2447C5E500CB54A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA322447C78800CB54A6 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53F6AA3D2447CA9400CB54A6 /* Frame Providers */ = {
+			isa = PBXGroup;
+			children = (
+				53F6AA16244738AC00CB54A6 /* FrameProvider.swift */,
+				53F6AA142447388A00CB54A6 /* CameraFrameProvider.swift */,
+			);
+			path = "Frame Providers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F6AA032447369100CB54A6 /* Main.storyboard in Resources */,
-				53F6A9FA2447369100CB54A6 /* GameScene.sks in Resources */,
+				53F6AA342447C89600CB54A6 /* LaunchScreen.storyboard in Resources */,
 				53F6AA052447369200CB54A6 /* Assets.xcassets in Resources */,
-				53F6AA082447369200CB54A6 /* LaunchScreen.storyboard in Resources */,
-				53F6A9FC2447369100CB54A6 /* Actions.sks in Resources */,
+				53F6AA302447C78800CB54A6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,29 +250,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F6A9FE2447369100CB54A6 /* GameScene.swift in Sources */,
-				53F6AA002447369100CB54A6 /* GameViewController.swift in Sources */,
+				53F6AA3C2447C98900CB54A6 /* MainCoordinator.swift in Sources */,
+				53F6AA1D2447BBDB00CB54A6 /* Coordinator.swift in Sources */,
+				53F6AA2C2447C5A800CB54A6 /* String+Localization.swift in Sources */,
+				53F6AA202447BCC300CB54A6 /* ViewModel.swift in Sources */,
+				53F6AA382447C96F00CB54A6 /* CameraPromtCoordinator.swift in Sources */,
+				53F6AA262447C08500CB54A6 /* ColoredCircleNode.swift in Sources */,
+				53F6AA222447BD5D00CB54A6 /* View.swift in Sources */,
+				53F6AA3E2447CADD00CB54A6 /* CameraFrameProvider.swift in Sources */,
+				53F6AA002447369100CB54A6 /* MainViewController.swift in Sources */,
+				53F6AA12244737F200CB54A6 /* App.swift in Sources */,
 				53F6A9F82447369100CB54A6 /* AppDelegate.swift in Sources */,
+				53F6AA362447C8E000CB54A6 /* CameraPromtViewController.swift in Sources */,
+				53F6AA192447398A00CB54A6 /* VideoCircleNode.swift in Sources */,
+				53F6AA18244738F100CB54A6 /* FrameProvider.swift in Sources */,
+				53F6AA3A2447C97C00CB54A6 /* CameraPromtViewModel.swift in Sources */,
+				53F6AA1B2447BB4800CB54A6 /* AppCoordinator.swift in Sources */,
+				533FD40124485DE700424F65 /* ImageCropper.swift in Sources */,
+				53F6AA242447BE1900CB54A6 /* MainViewModel.swift in Sources */,
+				53F6AA412447CE1700CB54A6 /* SKShapeNode+Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		53F6AA012447369100CB54A6 /* Main.storyboard */ = {
+		53F6AA322447C78800CB54A6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53F6AA022447369100CB54A6 /* Base */,
+				53F6AA312447C78800CB54A6 /* en */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53F6AA062447369200CB54A6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53F6AA072447369200CB54A6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

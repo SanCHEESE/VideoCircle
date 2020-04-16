@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  VideoCircle
+
+  Created by Alexander Bochkarev on 16.04.2020.
+  Copyright © 2020 AB. All rights reserved.
+*/
+
+"Reset" = "Reset";
+"To continue, app requires access to camera" = "To continue, app requires access to camera";
+"Please, allow camera usage in settings" = "Please, allow camera usage in settings";
+"Go to Settings" = "Go to Settings";
+"Grant access" = "Grant access";
+"Camera promts" = "Camera promts";
